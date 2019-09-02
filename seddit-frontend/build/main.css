@@ -1,0 +1,64 @@
+/*
+light cyan: #D7FFF1
+magic mint: #AAFCB8
+light green: #8CD790
+green sheen: #77AF9C
+hunter green: #285943
+*/
+  
+body{
+    font-family: 'Raleway', sans-serif !important;
+    /* font-family: "Taviraj" !important;
+    font-weight: 400;
+    font-style: normal; */
+    background-color: #D7FFF1 !important;
+}
+h1, h2, h3, h4, h5{
+    font-family: "Fira Sans" !important;
+    font-weight: 600;
+    font-style: normal;
+    /* font-family: 'Roboto', sans-serif !important; */
+}
+
+
+
+.navbar{
+    background-color: #AAFCB8;
+}
+.navbar a{
+    color: #285943;
+}
+
+#write-post{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 16px;
+}
+#body{
+   height: 200px;
+}
+
+
+.comment{
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    /* height: 40px; */
+    line-height: 40px;
+    background-color: #f5f5f5;
+}
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+#auth-header{
+    text-align: center;
+}
